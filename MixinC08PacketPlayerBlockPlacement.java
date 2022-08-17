@@ -27,7 +27,7 @@ public class MixinC08PacketPlayerBlockPlacement {
     public float facingZ;
 
     /**
-     * @author AiYi\
+     * @author AiYi
      * @reason 修复hyt右键防砍
      */
     @Overwrite
