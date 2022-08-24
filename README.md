@@ -16,12 +16,3 @@ Fix Minecraft 1.12.2 Right click
 把MixinMixinC08PacketPlayerBlockPlacement放到net/ccbluex/liquidbounce/injection/forge/mixins/packets文件夹里，
 写一个Module，名字随意起，然后把MixinMixinC08PacketPlayerBlockPlacement里报错的import删了，把下面的两串FixEngine.fixRightClick()改成LiquidBounce.moduleManager.getModule("你起的Module名字").getState();   (这里的分号要加进去)
 记住要import一下LiquidBounce和你写的Module
-
-# 使用申明
-
-我们只负责写此模块，
-使用此模块的所有责任归使用者，
-模块的最终解释权归HacketMC Team。
-
-
-                                         ---By HacketMC Team
